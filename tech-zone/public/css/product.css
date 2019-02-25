@@ -1,0 +1,232 @@
+.producttitle {
+    font-weight: bold;
+}
+
+.produit {
+    float:left;
+    position:relative;
+    width: 350px;
+    height: 600px;
+}
+
+.reviewstars {
+    color: #f4b642;
+}
+
+.pageproduit {
+    margin-top: 50px;
+
+}
+
+.description {
+    width: 40%;
+    float:left;
+    margin-left:120px;
+    border-top: 2px solid grey;
+    padding-top: 10px;
+}
+
+.cart {
+    margin-left: 40px;
+    padding-top: 10px;
+    float: left;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.stock {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Flight", Verdana, Tahoma;
+}
+
+.notinstock {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Flight", Verdana, Tahoma;
+}
+
+.descproduit {
+    font-size: 15px;
+    text-align: left;
+    margin:0 0 0 -30px;
+    padding: 0 0 0 10px;
+    font-family: "Flight", Verdana, Tahoma;
+}
+
+.description label {
+    font-family: "Flight", Verdana, Tahoma;
+    font-size: 18px;
+}
+
+.description p {
+    font-family: "Flight", Verdana, Tahoma;
+    font-size: 18px;
+}
+
+.prix {
+    font-family: "Flight", Verdana, Tahoma;
+    color: #960023;
+    font-size: 20px;
+}
+
+.image {
+    margin-left:100px;
+    max-width: 300px;
+    height: 350px;
+
+}
+
+.image:hover {
+    opacity: .8;
+}
+
+
+nav li {
+    display: inline;
+    padding: 0px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quantity {
+    width:50px;
+    height:30px;
+}
+
+.quantityremaining {
+    color: green;
+    font-weight: bold;
+}
+
+.comments {
+    position: absolute;
+    box-shadow:0 2px 2px #ccc;
+    width: 80%;
+    margin-top: 400px;
+    margin-left: 150px;
+    border-top: 1px solid lightgrey;
+  }
+
+.comments h3 {
+    font-weight: bold;
+}
+
+.reviewuser {
+    color: black;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom:15px;
+    background-color: white;
+}
+
+.postreview {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textarea {
+    font-size: 15px;
+}
+
+.reviewbutton {
+  margin-bottom:10px;
+  margin-top:10px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: #4aa7d0;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+    border-radius: 2px;
+}
+
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #f4b642;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+
+.prodButton {
+  font-size: 17px;
+}
+
+.userlogo {
+  float: left;
+  width:150px;
+  height:85px;
+  margin-right: 15px;
+  border-right: 1px solid lightgrey;
+  margin-left:5px;
+}
+
+.logouser {
+  font-size:30px;
+  padding-top:15px;
+}

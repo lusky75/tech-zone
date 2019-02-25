@@ -1,0 +1,22 @@
+.stats {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid lightgrey;
+}
+
+.active {
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bestorder {
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+}

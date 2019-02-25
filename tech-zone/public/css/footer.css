@@ -1,0 +1,55 @@
+
+footer {
+    width: 100%;
+    clear: both;
+
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: #355665;
+    color: white;
+}
+
+.footer p {
+   padding-bottom: 0;
+}
+
+.contact {
+    float:left;
+    margin-top:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.copyright {
+    float:left;
+    margin-top:25px;
+}
+
+.copyright label{
+    font-size: 16px;
+    font-family: Arial;
+    color: grey;
+}
+
+.socials {
+    margin-top:20px;
+    float: right;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a i{
+    font-size:25px;
+}
+
+.followus {
+
+}
